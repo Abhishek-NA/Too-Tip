@@ -2,6 +2,8 @@ import Button from "react-bootstrap/Button";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 
+// Receiving postition as props and display ToolTip using react-bootstrap/OverlayTrigger & ToolTip
+
 function ToolTip({ position }) {
   return (
     <>

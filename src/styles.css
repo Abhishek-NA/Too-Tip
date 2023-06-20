@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: slategrey;
 }
 
 code {
@@ -16,7 +17,7 @@ code {
   display: flex;
   flex-direction: column;
   padding: 20vh 30vw;
-  background: #fff;
+  background: slategrey;
   align-items: center;
 }
 
@@ -27,10 +28,6 @@ code {
   margin-top: -50px;
   margin-bottom: 50px;
 }
-
-/* #buttons {
-  margin-top: 20vh;
-} */
 
 .buttons {
   flex-direction: row;

@@ -4,8 +4,10 @@ import { useState } from "react";
 import ToolTip from "./ToolTip";
 
 function App() {
+  // Setting top as default position using useState hook
   const [position, setPosition] = useState("top");
 
+  // Creating buttons to set position
   return (
     <div className="App">
       <h1 className="heading">ToolTip</h1>
